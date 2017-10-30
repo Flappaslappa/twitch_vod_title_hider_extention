@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+
+  "name": "Remove Twitch Vod Title HTML",
+  "version": "0.1.0",
+  "description": "Removes Twitch Vod Title HTML",
+
+  "content_scripts": [{
+    "js": ["content.js"],
+    "matches": ["https://go.twitch.tv/*", "https://www.twitch.tv/*"]
+  }]
+
+}
